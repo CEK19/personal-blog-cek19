@@ -1,9 +1,11 @@
 import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
 
-type Props = {}
+type Props = {
+  size?: "small" | "medium" | "large" | "inherit"
+}
 
 export const RightArrow = (props: Props) => {
   return (
-    <ArrowForwardIosOutlinedIcon/>
+    <ArrowForwardIosOutlinedIcon fontSize={props.size}/>
   )
 }

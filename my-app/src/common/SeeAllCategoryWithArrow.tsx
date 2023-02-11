@@ -14,6 +14,7 @@ export const SeeAllCategoryWithArrow = (props: Props) => {
         sx={{
           display: "flex",
           rowGap: "0.75rem",
+          alignItems:"center",
         }}
       >
         <div
@@ -24,7 +25,7 @@ export const SeeAllCategoryWithArrow = (props: Props) => {
         >
           {props.text}
         </div>
-        <RightArrow />
+        <RightArrow size="small"/>
       </Box>
     </React.Fragment>
   );

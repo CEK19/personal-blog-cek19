@@ -1,0 +1,1 @@
+export const COMMON_LAYOUT_PADDING = "6rem"

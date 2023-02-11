@@ -1,2 +1,3 @@
-export { COLOR } from './color';
-export {FONT_SIZE } from './font';
+export * from './color';
+export * from './font';
+export * from './spacing'
